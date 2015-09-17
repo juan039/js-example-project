@@ -10,7 +10,6 @@ First you need to install in your machine:
 next run:
 
     npm install
-    npm install -g grunt-cli
 
 in order to run the tests:
 
