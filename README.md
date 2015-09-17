@@ -2,14 +2,15 @@
 
 # Example project to do BDD in JS.
 
-To install dependencies you need:
+First you need to install in your machine:
 
     Node.js
-    npm
+
 
 next run:
 
     npm install
+    npm install -g grunt-cli
 
 in order to run the tests:
 
