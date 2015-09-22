@@ -7,10 +7,21 @@ First you need to install in your machine:
     Node.js
 
 
-next run:
+Next run:
 
     npm install
 
-in order to run the tests:
+
+In order to run all the tests:
+
+    grunt fullTest
+
+To run unit test with jasmine:
 
     grunt jasmine
+
+To run the acceptance test with cucumber and zombie:
+
+    grunt connect:develop
+
+    grunt cucumberjs
