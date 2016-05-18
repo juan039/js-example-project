@@ -12,7 +12,7 @@ describe("Home site", function() {
     });
 
     it("should indicate that the web site can saludate", function() {
-      expect("JS jasmine example").toBe(webVariables.title);
+      expect(webVariables.title).toBe("JS jasmine example");
     });
 });
 });
