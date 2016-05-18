@@ -5,4 +5,4 @@ Feature: Home feature
 
   Scenario: Hello cucumber and zombie
     Given I am on my site home
-    Then I should see "JS template" as the page title
+    Then I should see "Front template" as the page title

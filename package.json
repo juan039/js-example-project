@@ -1,16 +1,21 @@
 {
 	"name": "JS-template",
-	"version": "0.1.0",
-	"devDependencies": {
-		"grunt-cli": "latest",
-		"cucumber": "latest",
-		"zombie": "latest",
-		"should": "latest",
-		"grunt-shell-spawn": "latest",
-		"grunt-contrib-jshint": "~0.10.0",
-		"grunt-contrib-uglify": "~0.5.0",
-		"grunt-contrib-jasmine": "~0.9.1",
-		"grunt-cucumberjs": "latest",
-		"grunt-connect": "^0.2.0"
+	"version": "1.0.0",
+	"devDependencies": {  
+    "grunt": "^0.4.5",
+    "cucumber": "^0.9.2",
+    "browserify": "^13.0.0",
+    "grunt-browserify": "^4.0.1",
+    "grunt-contrib-connect": "^0.6.0",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jasmine": "^0.9.2",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-open": "^0.2.3",
+    "grunt-cucumberjs": "^0.8.7",
+    "cucumber-assert": "1.0.2",
+    "grunt-shell-spawn": "^0.3.10",
+    "should": "^8.2.0",
+    "zombie": "^4.2.1"
 	}
 }

@@ -1,11 +1,15 @@
 
-**Para ejecutar las pruebas**
+**Para ejecutar el proyecto y las pruebas**
 
 Instalar node.js y npm.
 
 Ejecutar
 
     npm install
+
+El proyecto abre ejecutando en la terminal:
+      
+      grunt
 
 Los unit test corren con jasmine
 
