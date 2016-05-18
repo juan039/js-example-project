@@ -1,27 +1,22 @@
-[![Build Status](https://travis-ci.org/yamitcar/js-example-project.svg?branch=master)](https://travis-ci.org/yamitcar/js-example-project)
 
-# Example project to do BDD in JS.
+**Para ejecutar las pruebas**
 
-First you need to install in your machine:
+Instalar node.js y npm.
 
-    Node.js
-
-
-Next run:
+Ejecutar
 
     npm install
 
+Los unit test corren con jasmine
 
-In order to run all the tests:
+      grunt jasmine
 
-    grunt fullTest
-
-To run unit test with jasmine:
-
-    grunt jasmine
-
-To run the acceptance test with cucumber and zombie:
+Las pruebas de aceptación con cucumberjs y zombie
 
     grunt connect:develop
 
     grunt cucumberjs
+
+Para correr el fullStack de pruebas:
+
+    grunt fullTest

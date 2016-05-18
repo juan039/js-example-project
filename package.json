@@ -1,16 +1,16 @@
 {
-  "name": "JasmineExample",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt-cli": "latest",
-    "cucumber": "latest",
-    "zombie": "latest",
-    "should": "latest",
-    "grunt-shell-spawn": "latest",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-uglify": "~0.5.0",
-    "grunt-contrib-jasmine":"~0.9.1",
-    "grunt-cucumberjs": "latest",
-    "grunt-connect": "^0.2.0"
-  }
+	"name": "JS-template",
+	"version": "0.1.0",
+	"devDependencies": {
+		"grunt-cli": "latest",
+		"cucumber": "latest",
+		"zombie": "latest",
+		"should": "latest",
+		"grunt-shell-spawn": "latest",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-uglify": "~0.5.0",
+		"grunt-contrib-jasmine": "~0.9.1",
+		"grunt-cucumberjs": "latest",
+		"grunt-connect": "^0.2.0"
+	}
 }
