@@ -1,8 +1,11 @@
 
 **Para ejecutar el proyecto y las pruebas**
 
-Instalar node.js y npm.
+ - Instalar node.js y npm.
+ - Instalar Grunt
+    sudo npm install -g grunt-cli
 
+    
 Ejecutar
 
     npm install
