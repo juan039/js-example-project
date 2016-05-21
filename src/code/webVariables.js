@@ -10,7 +10,9 @@ var CalculadorDePrecios = function(){
   };
 }
 
-CalculadorDePrecios.prototype.calcularImpuesto=function(precioTotal,pais){
+
+
+CalculadorDePrecios.prototype.calcularImpuesto = function(precioTotal,pais){
       return Math.round((precioTotal * this.impuestos[pais])*100)/100;
   };
 
