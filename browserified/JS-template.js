@@ -41,31 +41,21 @@ var Tablero = function(coordenadas){
 Tablero.prototype.dibujarTablero = function(){
 
     var tabla = document.getElementById("jugador1");
-    
-    //borrar datos de la tabla
     var filas = tabla.getElementsByTagName("tr");
-    var length = filas.length
-    for(var i = length-1; i>=0; i--){
-      tabla.deleteRow(i);  
-    }
+    
+    for(var i = 0; i < filas.length; i++){
 
-    for(var i = 0; i < this.tablero.length; i++){
-      var fila = document.createElement("tr");
-      for(var j = 0; j < this.tablero[i].length; j++){
-        var colItem = document.createElement("td");
+      var casillas = filas[i].getElementsByTagName("td");
+      
+      for(var j = 0; j < casillas.length; j++){
         if(juego.jugador1.tableroEnemigo.tablero[i][j]==="x"){
-          colItem.className = "disparoFallido";  
+          casillas[j].className = "disparoFallido";  
         }else if(juego.jugador1.tableroEnemigo.tablero[i][j]==="p"){
-          colItem.className = "disparo"; 
+          casillas[j].className = "disparo"; 
         }else{
-          colItem.className = "mar"; 
+          casillas[j].className = "mar"; 
         }
-  
-        colItem.id = "j1-"+i+"-"+j;
-        colItem.onclick = shoot;
-        fila.appendChild(colItem);
       }
-      tabla.appendChild(fila);  
     }
 }
 
